@@ -1,0 +1,6 @@
+11:47:02.470 [main] INFO  com.andoorathodi.E2EJuly2022.RediffMainPage - Driver intialized
+11:47:02.500 [main] INFO  com.andoorathodi.E2EJuly2022.listeners - TEST STARTED
+11:47:15.236 [main] ERROR com.andoorathodi.E2EJuly2022.listeners - TEST failed negativeTest
+11:47:15.292 [main] INFO  com.andoorathodi.E2EJuly2022.listeners - TEST STARTED
+11:47:15.292 [main] DEBUG com.andoorathodi.E2EJuly2022.RediffMainPage - Opening url
+11:47:17.036 [main] INFO  com.andoorathodi.E2EJuly2022.RediffMainPage - url opened
