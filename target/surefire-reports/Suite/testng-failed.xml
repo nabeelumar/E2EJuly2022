@@ -10,6 +10,7 @@
         <methods>
           <include name="setUp"/>
           <include name="negativeTest"/>
+          <include name="start"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.andoorathodi.E2EJuly2022.RediffMainPage -->

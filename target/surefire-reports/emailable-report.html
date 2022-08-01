@@ -9,34 +9,26 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">36,607</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">0</td><td class="num">93</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.andoorathodi.E2EJuly2022.RediffMainPage</td><td><a href="#m0">negativeTest</a></td><td rowspan="1">1659035733276</td><td rowspan="1">9095</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.andoorathodi.E2EJuly2022.RediffMainPage</td><td><a href="#m1">start</a></td><td rowspan="2">1659035758705</td><td rowspan="2">7059</td></tr><tr class="passedeven"><td><a href="#m2">start</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.andoorathodi.E2EJuly2022.RediffMainPage</td><td><a href="#m0">setUp</a></td><td rowspan="1">1659385832104</td><td rowspan="1">11</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.andoorathodi.E2EJuly2022.RediffMainPage</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1659385832187</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">com.andoorathodi.E2EJuly2022.RediffMainPage</td><td><a href="#m2">negativeTest</a></td><td rowspan="1">1659385832149</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">start</a></td><td rowspan="2">1659385832174</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m4">start</a></td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.andoorathodi.E2EJuly2022.RediffMainPage#negativeTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Newss&quot;}
-  (Session info: chrome=103.0.5060.134)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;MacBook-Pro.local&apos;, ip: &apos;2601:1c0:6900:4460:0:0:0:353f%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.3&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [47b436d78ecf8ad4adcf3b40a11edd55, findElement {using=link text, value=Newss}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /var/folders/0q/v1_ylhjs4qg...}, goog:chromeOptions: {debuggerAddress: localhost:65077}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:65077/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 47b436d78ecf8ad4adcf3b40a11edd55
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-	at com.andoorathodi.E2EJuly2022.RediffMainPage.negativeTest(RediffMainPage.java:60)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.andoorathodi.E2EJuly2022.RediffMainPage#start</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>shibil</td><td>jkll</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.andoorathodi.E2EJuly2022.RediffMainPage#start</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>nabeel</td><td>afd</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.andoorathodi.E2EJuly2022.RediffMainPage#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.contains(java.lang.CharSequence)&quot; because &quot;browser&quot; is null
+	at resources.base.initalizeDriver(base.java:32)
+	at com.andoorathodi.E2EJuly2022.RediffMainPage.setUp(RediffMainPage.java:22)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.andoorathodi.E2EJuly2022.RediffMainPage#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.andoorathodi.E2EJuly2022.RediffMainPage#negativeTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.contains(java.lang.CharSequence)&quot; because &quot;browser&quot; is null
+	at resources.base.initalizeDriver(base.java:32)
+	at com.andoorathodi.E2EJuly2022.RediffMainPage.setUp(RediffMainPage.java:22)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.andoorathodi.E2EJuly2022.RediffMainPage#start</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>nabeel</td><td>afd</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.contains(java.lang.CharSequence)&quot; because &quot;browser&quot; is null
+	at resources.base.initalizeDriver(base.java:32)
+	at com.andoorathodi.E2EJuly2022.RediffMainPage.setUp(RediffMainPage.java:22)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.andoorathodi.E2EJuly2022.RediffMainPage#start</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>shibil</td><td>jkll</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.contains(java.lang.CharSequence)&quot; because &quot;browser&quot; is null
+	at resources.base.initalizeDriver(base.java:32)
+	at com.andoorathodi.E2EJuly2022.RediffMainPage.setUp(RediffMainPage.java:22)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
